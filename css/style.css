@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --heeb: 'Heebo';
+  }
+
+body {
+      background: #E5E5E5;
+  }
+
+/* header start */
+
+.nav-link {
+    font-family: var(--heeb);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: black;
+    font-style: normal;
+    transition: 0.3s linear;
+}
+
+.nav-link:hover {
+    color:#FF6464 !important; 
+    transition: 0.3s linear;
+}
+
+
+/* header finishder */
+
+/* main Contact start */
+
+.btn {
+    width: 208px;
+    height: 47px;
+}
+
+.main__contact-title {
+    font-family: var(--heeb);
+    max-width: 506px;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.main__contact-text {
+    font-family: var(--heeb);
+    max-width: 497px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+.sec__contact-Recent {
+    background: #EDF7FA;
+    min-height: 400px;
+}
+
+.Recent-posts-title {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+} 
+
+ 
+
+.Recent-posts-link {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.Recent-posts-row {
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    max-width: 418px !important;
+    height: 295px !important;
+    
+    
+}
+
+.Recent-posts-banner {
+    max-width: 510px;
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.Recent-posts-title {
+    font-family: var(--heeb);
+    max-width: 374px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    
+}
+
+.redact-w-h {
+    max-width: 300px;
+    height: 34px;
+}
+
+.redact-w-h2 {
+    max-width: 350px;
+    height: 34px;
+}
+
+.Recent-posts-text {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+@media (max-width: 400px) {
+    .Recent-posts-title {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+
+    .Recent-posts-text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .line {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+}
+
+
+.line {
+    width: 1px;
+    min-height: 27px;
+    display: block;
+    background: black;
+}
+
+.Recent-posts-text2 {
+    max-width: 368px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+
+}
+
+.Featured-works-row {
+    max-width: 240px;
+    height: 180px;
+}
+
+.Featured-works-rowtitle {
+    font-family: var(--heeb);
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+@media (max-width: 400px) {
+    .Featured-works-rowtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+}
+
+.Featured-works-number {
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #142850;
+    font-family: var(--heeb);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+}
+
+.Featured-works-text {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.Featured-works-text2 {
+    max-width: 594px;
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+/* я немного в начале ошибся с классвми, надо было всем классам дабавит Contact. */
+
+/* main Contact finished  */ 
+
+/* footer start */
+
+.footer__img {
+   max-width: 232px;
+   height: 30px;
+}
+
+.footert__title {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+}
+
+/* footer finished */
+
+/* main Blog start*/
+
+.body {
+    background: white;
+}
+
+
+.main__blog-banner {
+    font-family: var(--heeb);
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.main__blog-title {
+    font-family: var(--heeb);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D; 
+}
+
+.redact-w-h3 {
+    max-width: 374px;
+    height: 25px;
+}
+.main__blog-text {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+
+@media (max-width:380px) {
+    .main__blog-title {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .main__blog-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+.line {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.main__blog-text-2 {
+     color: #8695A4;
+}
+
+.main__blog-text2 {
+    font-family: var(--heeb);
+    max-width: 682px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+/* main Blog finished */
+
+/* main Works start */
+
+.main__works-title {
+    max-width: 425px;
+    font-family: var(--heeb);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.main__works2 {
+    max-width: 1000px;
+}
+
+.main__works-title2 {
+    font-family: var(--heeb);
+    max-width: 506px;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+}
+
+@media (max-width: 400px) {
+    .main__works-title2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+}
+
+.main-works-text {
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+}
+.main-works-number {
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #FF7C7C;;
+    font-family: var(--heeb);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+}
+
+.main-works-text2 {
+    max-width: 681px;
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.main__works-img {
+    max-width: 840px;  
+}
+
+.main__works-title3 {
+    max-width: 845px;
+}
+
+.main__works-heading1 {
+    font-family: var(--heeb);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.main__works-heading2 {
+    font-family: var(--heeb);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.main__works-text3 {
+    max-width: 677px;
+    font-family: var(--heeb);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+/* main Works finished */
